@@ -1,7 +1,11 @@
 <?php
 
-// Lägger till dynamic tag
-add_theme_support('title_tag');
+function theme_support(){
+    // Lägger till dynamic tag
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'theme_support');
 
 function register_styles() {
     $version = wp_get_theme()->get( 'Version' );
