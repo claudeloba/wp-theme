@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    
+    <?php
+    wp_head();
+    ?>
 </head>
 
 <body>
@@ -125,7 +127,7 @@
                     <div class="col mb-4">
                         <div class="card bg-secondary-light">
                             <div class="card-body text-center px-4 py-5 px-md-5">
-                                <p class="fw-bold text-secondary card-text mb-2"><strong><span style="color: rgb(55, 99, 244); background-color: rgb(239, 242, 254);">Lorem Merol</span></strong><br></p>
+                                <p class="fw-bold text-secondary card-text mb-2"><strong><span style="color: rgb(55, 99, 244);">Lorem Merol</span></strong><br></p>
                                 <h5 class="fw-bold card-title mb-3">Lorem ipsum dolor sit&nbsp;nullam et quis ad cras porttitor</h5><button class="btn btn-secondary btn-sm" type="button">Läs mer</button>
                             </div>
                         </div>
@@ -133,7 +135,7 @@
                     <div class="col mb-4">
                         <div class="card bg-info-light">
                             <div class="card-body text-center px-4 py-5 px-md-5">
-                                <p class="fw-bold text-info card-text mb-2"><strong><span style="color: rgb(55, 99, 244); background-color: rgb(239, 242, 254);">Lorem Merol</span></strong><br></p>
+                                <p class="fw-bold text-info card-text mb-2"><strong><span style="color: rgb(55, 99, 244);">Lorem Merol</span></strong><br></p>
                                 <h5 class="fw-bold card-title mb-3">Lorem ipsum dolor sit&nbsp;nullam et quis ad cras porttitor</h5><button class="btn btn-info btn-sm" type="button">Läs mer</button>
                             </div>
                         </div>
